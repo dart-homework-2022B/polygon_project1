@@ -1,18 +1,24 @@
+import 'dart:math';
+
 class Triangle {
   double a = 0;
   double b = 0;
   double c = 0;
 
-  Triangle(double a, double b, double c) {}
+  Triangle(double a, double b, double c) {
+    this.a = a;
+    this.b = b;
+    this.c = c;
+  }
   double perimeter() {
-    return 0;
+    return a + b + c;
   }
 
   double area() {
     return 0;
   }
 
-  bool isvalid() {
+  bool is_valid() {
     return false;
   }
 
